@@ -105,7 +105,6 @@ public class calculadora implements calculadorageneral {
         return a;
     }
 
-    @Override
     public Boolean evaluate(String expresion) {
         if (expresion == "*") {
             return true;
